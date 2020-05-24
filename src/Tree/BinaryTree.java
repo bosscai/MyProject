@@ -1,29 +1,47 @@
 package Tree;
 
-public class BinaryTree {
-    public int value;
-    public BinaryTree left;
-    public BinaryTree right;
+public class BinaryTree{
+    private Tree root;
 
-    public BinaryTree(int value) {
+    public void setRoot(Tree root) {
+        this.root = root;
+    }
+
+    //前序遍历
+    public void preOrder(){
+        if(root != null){
+//            root.postorder();
+        }
+    }
+}
+
+class Tree {
+    public int value;
+    public Tree left;
+    public Tree right;
+
+    public Tree(int value) {
         this.value = value;
     }
 
-    private void preorder(BinaryTree p) {
+    //前序遍历
+    public void preorder(Tree p) {
         if (p != null) {
             System.out.print(p.value + " ");
             preorder(p.left);
             preorder(p.right);
         }
     }
-    private void inorder(BinaryTree p) {
+    //中序遍历
+    public void inorder(Tree p) {
         if (p != null) {
             inorder(p.left);
             System.out.print(p.value + " ");
             inorder(p.right);
         }
     }
-    private void postorder(BinaryTree p) {
+    //后序遍历
+    public void postorder(Tree p) {
         if (p != null) {
             postorder(p.left);
             postorder(p.right);

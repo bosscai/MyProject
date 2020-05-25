@@ -1,17 +1,7 @@
-package Job2019.ATest;
+package LongestHuiwen;
 
-import LongestHuiwen.LongestString;
-
-import java.util.Scanner;
-
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner  = new Scanner(System.in);
-        String s = LongestString.longestString(scanner.nextLine());
-        System.out.println(s);
-        scanner.close();
-    }
+public class LongestString {
+    //T（n2），S（n2）
     public static String longestString(String temp){
         int len = temp.length();
         if (len < 2) return temp;

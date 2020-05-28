@@ -9,9 +9,11 @@ public class quickSort {
         int i = start + 1;
         int j = end;
         while (true) {
+            //左边的要比pivot小
             while (i <= end && data[i] < pivot) {
                 i++;
             }
+            //右边的要比pivot大
             while (j > start && data[j] > pivot) {
                 j--;
             }

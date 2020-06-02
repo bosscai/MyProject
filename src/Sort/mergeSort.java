@@ -33,7 +33,7 @@ public class mergeSort {
         int mid = center + 1;
         // third 记录临时数组的索引
         int third = left;
-        // 缓 存左数组第一个元素的索引
+        // 缓存左数组第一个元素的索引
         int tmp = left;
         while (left <= center && mid <= right) {
             // 从两个数组中取出最小的放入临时数组

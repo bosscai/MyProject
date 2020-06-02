@@ -26,7 +26,6 @@ public class quickSort {
         }
         //交换 j和分界点的值
         swap(data, start, j);
-//        print(data);
         //递归左子序列
         quickSort(data, start, j - 1);
         //递归右子序列

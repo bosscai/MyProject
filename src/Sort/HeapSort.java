@@ -16,7 +16,7 @@ public class HeapSort {
         for (int i = arrs.length/2 - 1; i >= 0;i--){
             adjustHeap(arrs, i, arrs.length);
         }
-
+        //从下往上调整
         for (int j=arrs.length-1;j>0;j--){
             //change
             temp = arrs[j];
@@ -34,8 +34,8 @@ public class HeapSort {
      * @param length    多少个元素调整，length在减少
      */
     public static void adjustHeap(int[] arr, int i, int length){
-        int temp = arr[i];
 
+        int temp = arr[i];
         //begin adjust
 //        k is the i's left
         for (int k = i*2 + 1; k < length; k = k *2 + 1){

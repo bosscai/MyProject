@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab4a198-6f8d-4d69-bd4f-84c8f5d42f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BinarySortTree/BinarySortTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySortTree/BinarySortTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySortTree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HuffmanTree/HuffmanCode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HuffmanTree/HuffmanCode/HuffmanCode.java" afterDir="false" />
     </list>
@@ -51,7 +54,20 @@
       <recent name="D:\Users\CCX\IdeaProjects\MyProject\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HuffmanCode">
+  <component name="RunManager" selected="Application.BinarySortTreeDemo">
+    <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySortTree.BinarySortTreeDemo" />
+      <module name="MyProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySortTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HuffmanCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HuffmanTree.HuffmanCode.HuffmanCode" />
       <module name="MyProject" />
@@ -71,19 +87,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HuffmanTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pinduoduo.Main" />
-      <module name="MyProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pinduoduo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.HuffmanCode" />
         <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +163,8 @@
       <workItem from="1590971767487" duration="3512000" />
       <workItem from="1591064900688" duration="12589000" />
       <workItem from="1591229942182" duration="7727000" />
-      <workItem from="1591337131100" duration="13083000" />
+      <workItem from="1591337131100" duration="13408000" />
+      <workItem from="1591411735612" duration="12346000" />
     </task>
     <task id="LOCAL-00001" summary="20200518">
       <created>1589784772345</created>
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591254420589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20200605">
+      <created>1591370218892</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591370218892</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,61 +248,62 @@
     <MESSAGE value="20200525" />
     <MESSAGE value="20200528" />
     <MESSAGE value="20200602" />
-    <option name="LAST_COMMIT_MESSAGE" value="20200602" />
+    <MESSAGE value="20200605" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200605" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1591251403379">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1591428157054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591251403379" />
-    <state x="385" y="12" key="CommitChangelistDialog2" timestamp="1591254418904">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591428157054" />
+    <state x="385" y="12" key="CommitChangelistDialog2" timestamp="1591370215837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591254418904" />
+    <state x="385" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591370215837" />
     <state x="568" y="292" width="424" height="240" key="Github.ShareDialog" timestamp="1589785449919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="568" y="292" width="424" height="240" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1589785449919" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1591370154259">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1591443737986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591370154259" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1591370154259">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591443737986" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1591443737985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591370154259" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1591370154259">
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591443737985" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1591443737985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591370154259" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1591370154259">
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591443737985" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1591443737985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591370154259" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1591370076337">
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591443737985" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1591370263899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591370076337" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1591370076337">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591370263899" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1591370263898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591370076337" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1591370076337">
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591370263898" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1591370263898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591370076337" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1591370076337">
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591370263898" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1591370263899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591370076337" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591254427507">
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591370263899" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1591370226314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591254427507" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591337140881">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591370226314" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591411859561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591337140881" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591411859561" />
     <state x="564" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590245494143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -300,10 +312,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590376499047" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591338264362">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591443298492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591338264362" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591443298492" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -352,16 +364,6 @@
           <url>file://$PROJECT_DIR$/src/Pinduoduo/Main3.java</url>
           <line>28</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCode/HuffmanCode.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HuffmanTree/HuffmanCode/HuffmanCode.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Job2019/B76/Main.java</url>

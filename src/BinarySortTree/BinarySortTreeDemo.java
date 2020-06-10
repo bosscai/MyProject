@@ -9,7 +9,14 @@ public class BinarySortTreeDemo {
         }
         tree.infixOrder();
         tree.delNode(2);
+        tree.delNode(5);
+        tree.delNode(9);
+        tree.delNode(12);
+        tree.delNode(7);
+        tree.delNode(3);
+        tree.delNode(10);
         tree.delNode(1);
+//        tree.delNode(10);
         System.out.println();
         tree.infixOrder();
     }

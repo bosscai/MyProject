@@ -1,7 +1,13 @@
-package BinarySortTree;
+package AVL;
 
-public class BinarySortTree {
+import AVL.Node;
+
+public class AVLTree {
     private Node root;
+
+    public Node getRoot() {
+        return root;
+    }
 
     //删除节点
     public void delNode(int value) {

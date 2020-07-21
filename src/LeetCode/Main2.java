@@ -1,10 +1,12 @@
-package Pinduoduo;
+package LeetCode;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
-public class Main {
+
+public class Main2 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(reader.readLine());
@@ -14,21 +16,21 @@ public class Main {
             nums[i][0] = Integer.parseInt(temp[0]);
             nums[i][1] = Integer.parseInt(temp[1]);
         }
-        int temp = 0;
-        for (int i=0;i<n;i++){
-            if (nums[i][0] > nums[i][1]){
-                System.out.println(nums[i][1]);
+        Arrays.sort(nums, ((o1, o2) -> o1[0] - o2[0]));
+        int res = 0;
+        if (n == 1){
+            System.out.println(nums[0][1]);
+            return;
+        }
+        for (int i=1;i<n;i++){
+            if (nums[i][1] < nums[i-1][0]){
+                res = res > nums[i][0]+nums[i-1][1] ? res : nums[i][0]+nums[i-1][1];
             }else {
-                int numa = nums[i][0] - 1;
-                int numb = nums[i][1];
-                int numc = numb / numa;
-                int numd = numb % numa;
-                int res = numc * nums[i][0] + numd;
-                if (numd == 0){
-                    res--;
-                }
-                System.out.println(res);
+                int temp = nums[i][0] > nums[i][1]+nums[i-1][1] ? nums[i][0] : nums[i][1]+nums[i-1][1];
+                res = res > temp ? res : temp;
             }
         }
+        System.out.println(res);
     }
 }
+
